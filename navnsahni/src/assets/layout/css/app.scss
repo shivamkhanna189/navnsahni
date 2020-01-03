@@ -1,0 +1,24 @@
+$mystic-color: #D8E8E8;
+$sinbad-color: #A8D0DA;
+$san-marino: #406D96;
+$pickled-bluewood: #2F3A56;
+$cinnabar-color: #E2474B;
+
+$bg-color: $sinbad-color;
+$white-color: #FFF;
+$black-color: #000;
+
+nav,
+.fullPage,
+.footer{
+    background-color: $bg-color;
+    .footer-end{
+        background-color: $black-color;
+    }
+}
+.dashboard{
+    background: linear-gradient(to bottom, $mystic-color 10%, $bg-color 90%);
+}
+.logo{
+    cursor: pointer;
+}

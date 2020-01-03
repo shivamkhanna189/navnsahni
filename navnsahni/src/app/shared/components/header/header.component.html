@@ -1,0 +1,52 @@
+<div class="row header-start">
+  <div class="col-2 col3"></div>
+  <div class="col-3 col5"></div>
+  <div class="col col7"></div>
+  <div class="col-2 col9"></div>
+  <div class="col-1 col0"></div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <div class="row logo" [routerLink]="['/']">
+      <div class="col-12 title">
+        <a class="navbar-brand" href="JavaScript:void(0);">Navn Sahni</a>
+      </div>
+      <div class="col-12 sub-title"> Creative designer</div>
+    </div>
+    <div class="my-2 my-lg-0">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a class="nav-link" [routerLink]="['/']">Home</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a class="nav-link" [routerLink]="['/portfolio']">Portfolio</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+            <a class="nav-link" [routerLink]="['/about']">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="JavaScript:void(0);" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Work
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Work 1</a>
+              <a class="dropdown-item" href="#">Work 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+      </div>
+    </div>
+  </div>
+</nav>

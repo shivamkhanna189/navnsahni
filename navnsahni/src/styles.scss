@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/layout/css/app.scss";
+
+/** scroll bar for web start here */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(165, 165, 165);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(117, 117, 117);
+  }
+/** scroll bar for webside ENDs here */
+
+

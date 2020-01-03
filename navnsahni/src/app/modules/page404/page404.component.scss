@@ -1,0 +1,11 @@
+.fullPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .header404 {
+    font-size: 150px;
+    color: #999999;
+    z-index: 3;
+  }
+}
